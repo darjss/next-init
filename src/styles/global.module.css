@@ -1,0 +1,19 @@
+/* *{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.dark{
+    background-color: slategrey;
+}
+.light{
+        background-color: floralwhite;
+}
