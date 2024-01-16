@@ -18,7 +18,26 @@
   flex-direction: column;
   gap: 10px;
 }
-.btnCont{
-    display: flex;
-    justify-content: space-between;
+.btnCont {
+  display: flex;
+  justify-content: space-between;
 }
+.containerLight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: floralwhite;
+}
+.containerDark {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: slategrey;
+}
+

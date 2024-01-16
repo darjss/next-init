@@ -4,7 +4,7 @@
       border-bottom: 1px solid gainsboro;
     align-items: center;
     padding-bottom: 5px;
-
+    height: 40px;
 }
 .counter{
     display: flex;
@@ -12,6 +12,7 @@
     background-color: rgb(245, 222, 196);
     border-radius: 12px;
     align-items: center;
+    height: 40px;
 }
 .btn{
     width: 25px;

@@ -1,8 +1,4 @@
-import Board from "@/components/Board"
 const Test = () => {
-    <div>
-        <h1>LMAO</h1>
-      <Board />
-    </div>;
-}
-export default Test
+  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+};
+export default Test;

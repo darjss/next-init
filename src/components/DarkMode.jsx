@@ -1,4 +1,4 @@
-const DarkMode = ({ isDark }, { themeFunc }) => {
+const DarkMode = ({ isDark , themeFunc }) => {
   if (isDark) {
     return (
       <div

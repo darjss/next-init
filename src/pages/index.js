@@ -1,11 +1,10 @@
 import Link from "next/link";
-import Board from "@/components/Board";
-import styles from "@/styles/global.module.css"
+import Test from "./test";
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Link href="/test">Go To ScoreBoard</Link>
-      <Board />
+    <div>
+      {/* <Link href="/score">Go To ScoreBoard</Link> */}
+      <h1 className="underline text-3xl">Hello world!</h1>
     </div>
   );
 }
